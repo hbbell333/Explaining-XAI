@@ -11,4 +11,4 @@ I expanded the original meme to have multiple branching paths of these stylistic
 
 Lastly, it's important to note that many of the phrases that send a model down the unaligned path are not themselves particularly offensive. To me, the results of this paper suggest that 'good' stylistic language, due to the autoregressive nature of LLM generation, can push a model into producing more aligned responses. While the unaligned model may not have used the same stylistic tokens as the aligned model, my suspicion is that it would often not immediately resort to unaligned behaviors. The authors suggest that the stylistic tokens used by the aligned model serve as important markers to **steer future token generation** away from potentially harmful responses, and toward well-aligned ones. In this way the stylistic tokens serve as a prophylactic, reducing the probability of generating tokens that conflict with the well-aligned attributes of whatever stylistic was used. 
 
-!(https://github.com/hbbell333/Explaining-XAI/blob/main/Unlocking_Spell_meme.png)
+![](https://github.com/hbbell333/Explaining-XAI/blob/main/Unlocking_Spell_meme.png)
